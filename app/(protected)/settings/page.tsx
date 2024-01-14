@@ -99,6 +99,7 @@ const SettingsPage = () => {
                         {...field}
                         placeholder="John Doe"
                         disabled={isPending}
+                        autoComplete="name"
                       />
                     </FormControl>
                     <FormMessage />
@@ -119,6 +120,7 @@ const SettingsPage = () => {
                             placeholder="john.doe@example.com"
                             type="email"
                             disabled={isPending}
+                            autoComplete="email"
                           />
                         </FormControl>
                         <FormMessage />
@@ -137,6 +139,7 @@ const SettingsPage = () => {
                             placeholder="******"
                             type="password"
                             disabled={isPending}
+                            autoComplete="current-password"
                           />
                         </FormControl>
                         <FormMessage />
@@ -155,6 +158,7 @@ const SettingsPage = () => {
                             placeholder="******"
                             type="password"
                             disabled={isPending}
+                            autoComplete="new-password"
                           />
                         </FormControl>
                         <FormMessage />

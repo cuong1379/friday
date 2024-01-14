@@ -35,8 +35,12 @@ export const login = async (
 
   const existingUser = await getUserByEmail(email);
 
-  if (!existingUser || !existingUser.email || !existingUser.password) {
+  if (!existingUser || !existingUser.email) {
     return { error: "Email does not exist!" }
+  }
+
+  if (existingUser?.email && !existingUser.password) {
+    return { error: "This email can login by GSuite!" }
   }
 
   if (!existingUser.emailVerified) {

@@ -72,6 +72,7 @@ export const RegisterForm = () => {
                       {...field}
                       disabled={isPending}
                       placeholder="John Doe"
+                      autoComplete="name"
                     />
                   </FormControl>
                   <FormMessage />
@@ -90,6 +91,7 @@ export const RegisterForm = () => {
                       disabled={isPending}
                       placeholder="john.doe@example.com"
                       type="email"
+                      autoComplete="email"
                     />
                   </FormControl>
                   <FormMessage />
@@ -108,6 +110,7 @@ export const RegisterForm = () => {
                       disabled={isPending}
                       placeholder="******"
                       type="password"
+                      autoComplete="current-password"
                     />
                   </FormControl>
                   <FormMessage />
