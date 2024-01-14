@@ -6,27 +6,31 @@ import { LoginButton } from "@/components/auth/login-button";
 
 const font = Poppins({
   subsets: ["latin"],
-  weight: ["600"]
-})
+  weight: ["600"],
+});
 
 export default function Home() {
   return (
-    <main className="flex h-full flex-col items-center justify-center bg-dark">
+    <main
+      className="flex h-full flex-col items-center justify-center bg-ln-dark"
+    >
       <div className="space-y-6 text-center">
-        <h1 className={cn(
-          "text-6xl font-semibold text-white drop-shadow-md",
-          font.className,
-        )}>
+        <h1
+          className={cn(
+            "text-6xl font-semibold text-primary drop-shadow-md",
+            font.className
+          )}
+        >
           FRIDAY
         </h1>
         <div>
-          <LoginButton  asChild>
+          <LoginButton asChild>
             <Button variant="default" size="lg">
-              Sign in
+              Start
             </Button>
           </LoginButton>
         </div>
       </div>
     </main>
-  )
+  );
 }
