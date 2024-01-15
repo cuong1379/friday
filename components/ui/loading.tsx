@@ -5,15 +5,13 @@ export interface ILoading {
   isFullWidth?: boolean;
   showLoadingIcon?: boolean;
   showLoadingBackground?: boolean;
-  loadingText?: string;
 }
 
 export function Loading({
   isLoading,
   isFullWidth,
   showLoadingIcon = true,
-  showLoadingBackground = true,
-  loadingText
+  showLoadingBackground = true
 }: ILoading) {
   return !isLoading ? null : (
     <div
@@ -23,7 +21,6 @@ export function Loading({
     >
       {showLoadingBackground && <div className="loading-background" />}
       {showLoadingIcon && <div className="loading-icon" />}
-      {loadingText && <div className="loading-text ml-2">{loadingText}</div>}
       <style jsx>{`
         .loading-overlay {
           bottom: 0;
