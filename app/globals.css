@@ -90,3 +90,49 @@ body,
 .bg-ln-dark {
   background: var(--ln-background);
 }
+
+.header-dashboard:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  z-index: -1;
+}
+
+.header-dashboard:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0 auto;
+  z-index: -1;
+  background: radial-gradient(
+    70.71% 70.71% at 50% 50%,
+    hsla(0, 0%, 100%, 0.12) 0,
+    hsla(0, 0%, 100%, 0) 100%
+  );
+}
+.footer-dashboard:after {
+  top: 0;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0 auto;
+  z-index: 1;
+  background: radial-gradient(
+    70.71% 70.71% at 50% 50%,
+    hsla(0, 0%, 100%, 0.12) 0,
+    hsla(0, 0%, 100%, 0) 100%
+  );
+}

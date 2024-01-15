@@ -3,15 +3,13 @@
 export interface ILoading {
   isLoading: boolean;
   isFullWidth?: boolean;
-  showLoadingIcon?: boolean;
-  showLoadingBackground?: boolean;
+  showLoadingIcon?: boolean
 }
 
 export function Loading({
   isLoading,
   isFullWidth,
-  showLoadingIcon = true,
-  showLoadingBackground = true
+  showLoadingIcon = true
 }: ILoading) {
   return !isLoading ? null : (
     <div
@@ -19,7 +17,6 @@ export function Loading({
         isFullWidth ? "is-full-page" : ""
       }`}
     >
-      {showLoadingBackground && <div className="loading-background" />}
       {showLoadingIcon && <div className="loading-icon" />}
       <style jsx>{`
         .loading-overlay {
@@ -33,15 +30,6 @@ export function Loading({
           justify-content: center;
           overflow: hidden;
           z-index: 999;
-
-          .loading-background {
-            bottom: 0;
-            left: 0;
-            position: absolute;
-            right: 0;
-            top: 0;
-            background: hsla(0, 0%, 100%, 0.5);
-          }
 
           .loading-icon {
             position: relative;
