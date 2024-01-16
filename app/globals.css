@@ -138,3 +138,12 @@ body,
     hsla(0, 0%, 100%, 0) 100%
   );
 }
+.mobile-menu {
+  transition: height 0.5s;
+  position: fixed;
+  z-index: 3;
+  top: 70px;
+  left: 0px;
+  width: calc(100% + 2rem);
+  overflow: hidden;
+}
