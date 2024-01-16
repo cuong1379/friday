@@ -4,6 +4,7 @@ import Footer from "@/components/landing-page/footer";
 import Header from "@/components/landing-page/header";
 import Hero from "@/components/landing-page/hero";
 import Introduce from "@/components/landing-page/introduce";
+import SocialMedia from "@/components/landing-page/social-media";
 import React from "react";
 
 const Dashboard = () => {
@@ -15,6 +16,7 @@ const Dashboard = () => {
       <Features />
       <Description />
       <Footer />
+      <SocialMedia />
     </div>
   );
 };

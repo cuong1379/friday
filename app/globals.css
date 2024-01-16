@@ -26,9 +26,11 @@ body,
     --popover-foreground: 222.2 84% 4.9%;
 
     --primary: #03d2fe;
+    --primary-90: #5fe3ff;
     --primary-foreground: #061721;
 
     --secondary: #1e7f79;
+    --secondary-80: #27a39c
     --secondary-foreground: 222.2 47.4% 11.2%;
 
     --muted: 210 40% 96.1%;

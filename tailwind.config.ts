@@ -55,6 +55,8 @@ const config = {
       },
       backgroundColor: {
         dark: "var(--background)",
+        "primary-90": "var(--primary-90)",
+        "secondary-80": "var(--secondary-80)",
       },
       borderRadius: {
         lg: "var(--radius)",

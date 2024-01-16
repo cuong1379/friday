@@ -25,7 +25,7 @@ export default function Home() {
         </h1>
         <div>
           <LoginButton asChild>
-            <Button variant="default" size="lg">
+            <Button variant="outline" size="lg">
               Start
             </Button>
           </LoginButton>

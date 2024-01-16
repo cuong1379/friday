@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "./logo";
+import { Button } from "../ui/button";
 
 const Header = () => {
   return (
@@ -55,23 +56,23 @@ const Header = () => {
               </div>
             </button>
             <a
-              className="flex cursor-pointer items-center justify-center whitespace-nowrap text-center font-semibold shadow-none outline-none active:translate-y-[0.0625rem] active:transform disabled:active:translate-y-0 disabled:text-neutral-900 disabled:shadow-none disabled:cursor-default translate-y-0 [transition:color_500ms,background-color_500ms,border-color_500ms,text-decoration-color_500ms,fill_500ms,stroke_500ms,transform] disabled:opacity-50 dark:disabled:opacity-30 dark:disabled:text-neutral-0 bg-primary-500 text-neutral-0 hover:bg-primary-400 hover:shadow-[0_4px_15px_rgba(107,109,216,0.35)] dark:bg-primary-600 dark:text-neutral-0 dark:hover:bg-primary-400 disabled:bg-neutral-30 dark:disabled:bg-neutral-700 h-10 rounded-[10px] px-4 py-2.5 text-sm min-w-[112px]"
-              href="https://play.google.com/store/apps/details?id=com.vyroai.aiart"
+              className="flex cursor-pointer items-center justify-center whitespace-nowrap text-center font-semibold shadow-none outline-none active:translate-y-[0.0625rem] active:transform disabled:active:translate-y-0 disabled:text-neutral-900 disabled:shadow-none disabled:cursor-default translate-y-0 [transition:color_500ms,background-color_500ms,border-color_500ms,text-decoration-color_500ms,fill_500ms,stroke_500ms,transform] disabled:opacity-50 dark:disabled:opacity-30 dark:disabled:text-neutral-0 bg-[#03d2fe] text-neutral-0 hover:bg-[#5fe3ff] hover:shadow-[0_4px_15px_rgba(107,109,216,0.35)] dark:bg-[#03d2fe] dark:text-neutral-0 dark:hover:bg-[#5fe3ff] disabled:bg-neutral-30 dark:disabled:bg-neutral-700 h-10 rounded-[10px] px-4 py-2.5 text-sm min-w-[112px]"
+              href="/settings"
             >
-              Open in App
+              Launch App
             </a>
           </div>
         </nav>
         <div className="hidden h-full flex-row items-center justify-center gap-2 lg:flex">
           <a
             className="relative flex h-full items-center justify-center px-4 py-2.5 text-sm font-semibold transition-all duration-500 after:absolute after:inset-x-0 after:bottom-[1px] after:mx-auto after:h-0.5 after:max-w-[calc(100%-32px)] after:rounded-t-xl after:bg-neutral-0 after:opacity-0 after:transition-all after:content-[''] after:duration-500 hover:after:opacity-100"
-            href="/dashboard/auth"
+            href="/auth/login"
           >
             Sign in
           </a>
           <a
-            className="cursor-pointer items-center justify-center whitespace-nowrap text-center font-semibold shadow-none outline-none active:translate-y-[0.0625rem] active:transform disabled:active:translate-y-0 disabled:text-neutral-900 disabled:shadow-none disabled:cursor-default translate-y-0 [transition:color_500ms,background-color_500ms,border-color_500ms,text-decoration-color_500ms,fill_500ms,stroke_500ms,transform] disabled:opacity-50 dark:disabled:opacity-30 dark:disabled:text-neutral-0 bg-primary-500 text-neutral-0 hover:bg-primary-400 hover:shadow-[0_4px_15px_rgba(107,109,216,0.35)] dark:bg-primary-600 dark:text-neutral-0 dark:hover:bg-primary-400 disabled:bg-neutral-30 dark:disabled:bg-neutral-700 h-10 rounded-[10px] px-4 py-2.5 text-sm hidden lg:block"
-            href="/dashboard/tool/from-text"
+            className="cursor-pointer items-center justify-center whitespace-nowrap text-center font-semibold shadow-none outline-none active:translate-y-[0.0625rem] active:transform disabled:active:translate-y-0 disabled:text-neutral-900 disabled:shadow-none disabled:cursor-default translate-y-0 [transition:color_500ms,background-color_500ms,border-color_500ms,text-decoration-color_500ms,fill_500ms,stroke_500ms,transform] disabled:opacity-50 dark:disabled:opacity-30 dark:disabled:text-neutral-0 bg-primary text-neutral-0 hover:bg-primary-90 hover:shadow-[0_4px_15px_rgba(107,109,216,0.35)] dark:bg-primary dark:text-neutral-0 dark:hover:bg-primary-90 disabled:bg-neutral-30 dark:disabled:bg-neutral-700 h-10 rounded-[10px] px-4 py-2.5 text-sm hidden lg:block"
+            href="/settings"
           >
             Launch App
           </a>
