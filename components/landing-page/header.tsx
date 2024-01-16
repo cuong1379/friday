@@ -62,7 +62,7 @@ const Header = () => {
             </button>
 
             <a
-              className="flex cursor-pointer items-center justify-center whitespace-nowrap text-center font-semibold shadow-none outline-none active:translate-y-[0.0625rem] active:transform disabled:active:translate-y-0 disabled:text-neutral-900 disabled:shadow-none disabled:cursor-default translate-y-0 [transition:color_500ms,background-color_500ms,border-color_500ms,text-decoration-color_500ms,fill_500ms,stroke_500ms,transform] disabled:opacity-50 dark:disabled:opacity-30 dark:disabled:text-neutral-0 bg-[#03d2fe] text-neutral-0 hover:bg-[#5fe3ff] hover:shadow-[0_4px_15px_rgba(107,109,216,0.35)] dark:bg-[#03d2fe] dark:text-neutral-0 dark:hover:bg-[#5fe3ff] disabled:bg-neutral-30 dark:disabled:bg-neutral-700 h-10 rounded-[10px] px-4 py-2.5 text-sm min-w-[112px]"
+              className="flex cursor-pointer items-center justify-center whitespace-nowrap text-center font-semibold shadow-none outline-none active:translate-y-[0.0625rem] active:transform disabled:active:translate-y-0 disabled:text-neutral-900 disabled:shadow-none disabled:cursor-default translate-y-0 [transition:color_500ms,background-color_500ms,border-color_500ms,text-decoration-color_500ms,fill_500ms,stroke_500ms,transform] disabled:opacity-50 dark:disabled:opacity-30 dark:disabled:text-neutral-0 bg-[linear-gradient(180deg,#03d2fe,#0c7d95)] text-neutral-0 hover:bg-[#5fe3ff] hover:shadow-[0_4px_15px_rgba(107,109,216,0.35)] dark:bg-[#03d2fe] dark:text-neutral-0 dark:hover:bg-[#5fe3ff] disabled:bg-neutral-30 dark:disabled:bg-neutral-700 h-10 rounded-[10px] px-4 py-2.5 text-sm min-w-[112px]"
               href="/settings"
             >
               Launch App
