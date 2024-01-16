@@ -8,7 +8,7 @@ const SocialMedia = () => {
           target="_blank"
           title="Join our facebook community"
           className="flex cursor-pointer items-center justify-center whitespace-nowrap text-center font-semibold shadow-none outline-none active:translate-y-[0.0625rem] active:transform disabled:active:translate-y-0 disabled:text-neutral-900 disabled:shadow-none disabled:cursor-default translate-y-0 [transition:color_500ms,background-color_500ms,border-color_500ms,text-decoration-color_500ms,fill_500ms,stroke_500ms,transform] disabled:opacity-50 dark:disabled:opacity-30 dark:disabled:text-neutral-0 h-[34px] w-[34px] rounded-md p-[5px] hover:bg-white hover:bg-opacity-[0.24]"
-          href=" https://www.facebook.com/groups/imagineai"
+          href=" https://fridayai.online"
         >
           <svg width="20" height="21" fill="none">
             <path
@@ -24,7 +24,7 @@ const SocialMedia = () => {
           target="_blank"
           title="Join our reddit community"
           className="flex cursor-pointer items-center justify-center whitespace-nowrap text-center font-semibold shadow-none outline-none active:translate-y-[0.0625rem] active:transform disabled:active:translate-y-0 disabled:text-neutral-900 disabled:shadow-none disabled:cursor-default translate-y-0 [transition:color_500ms,background-color_500ms,border-color_500ms,text-decoration-color_500ms,fill_500ms,stroke_500ms,transform] disabled:opacity-50 dark:disabled:opacity-30 dark:disabled:text-neutral-0 h-[34px] w-[34px] rounded-md p-[5px] hover:bg-white hover:bg-opacity-[0.24]"
-          href="https://www.reddit.com/r/ImagineAiArt/"
+          href="https://fridayai.online/"
         >
           <svg
             width="24"
@@ -46,7 +46,7 @@ const SocialMedia = () => {
           target="_blank"
           title="Join our discord community"
           className="flex cursor-pointer items-center justify-center whitespace-nowrap text-center font-semibold shadow-none outline-none active:translate-y-[0.0625rem] active:transform disabled:active:translate-y-0 disabled:text-neutral-900 disabled:shadow-none disabled:cursor-default translate-y-0 [transition:color_500ms,background-color_500ms,border-color_500ms,text-decoration-color_500ms,fill_500ms,stroke_500ms,transform] disabled:opacity-50 dark:disabled:opacity-30 dark:disabled:text-neutral-0 h-[34px] w-[34px] rounded-md p-[5px] hover:bg-white hover:bg-opacity-[0.24]"
-          href="https://discord.gg/imagine-ai"
+          href="https://fridayai.online"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -66,7 +66,7 @@ const SocialMedia = () => {
           target="_blank"
           title="Join our instagram community"
           className="flex cursor-pointer items-center justify-center whitespace-nowrap text-center font-semibold shadow-none outline-none active:translate-y-[0.0625rem] active:transform disabled:active:translate-y-0 disabled:text-neutral-900 disabled:shadow-none disabled:cursor-default translate-y-0 [transition:color_500ms,background-color_500ms,border-color_500ms,text-decoration-color_500ms,fill_500ms,stroke_500ms,transform] disabled:opacity-50 dark:disabled:opacity-30 dark:disabled:text-neutral-0 h-[34px] w-[34px] rounded-md p-[5px] hover:bg-white hover:bg-opacity-[0.24]"
-          href="https://www.instagram.com/imagine_ai_app/"
+          href="https://fridayai.online/"
         >
           <svg width="24" height="24" fill="none">
             <path

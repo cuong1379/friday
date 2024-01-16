@@ -31,7 +31,7 @@ const Header = () => {
               target="_blank"
               className="relative flex h-full items-center justify-center px-4 text-sm font-semibold transition-all duration-500 after:absolute after:inset-x-0 after:bottom-[1px] after:mx-auto after:h-0.5 after:max-w-[calc(100%-32px)] after:rounded-t-xl after:bg-neutral-0 after:opacity-0 after:transition-all after:content-[''] after:duration-500 hover:after:opacity-100 disabled:pointer-events-none disabled:opacity-70"
               data-state="closed"
-              href="https://imagineart.tapfiliate.com/"
+              href="https://fridayai.online"
             >
               Affiliate
             </a>
@@ -39,7 +39,7 @@ const Header = () => {
               target="_blank"
               className="relative flex h-full items-center justify-center px-4 text-sm font-semibold transition-all duration-500 after:absolute after:inset-x-0 after:bottom-[1px] after:mx-auto after:h-0.5 after:max-w-[calc(100%-32px)] after:rounded-t-xl after:bg-neutral-0 after:opacity-0 after:transition-all after:content-[''] after:duration-500 hover:after:opacity-100 disabled:pointer-events-none disabled:opacity-70"
               data-state="closed"
-              href="https://platform.imagine.art/"
+              href="https://fridayai.online"
             >
               API
             </a>
@@ -77,7 +77,7 @@ const Header = () => {
             Sign in
           </a>
           <a
-            className="cursor-pointer items-center justify-center whitespace-nowrap text-center font-semibold shadow-none outline-none active:translate-y-[0.0625rem] active:transform disabled:active:translate-y-0 disabled:text-neutral-900 disabled:shadow-none disabled:cursor-default translate-y-0 [transition:color_500ms,background-color_500ms,border-color_500ms,text-decoration-color_500ms,fill_500ms,stroke_500ms,transform] disabled:opacity-50 dark:disabled:opacity-30 dark:disabled:text-neutral-0 bg-primary text-neutral-0 hover:bg-primary-90 hover:shadow-[0_4px_15px_rgba(107,109,216,0.35)] dark:bg-primary dark:text-neutral-0 dark:hover:bg-primary-90 disabled:bg-neutral-30 dark:disabled:bg-neutral-700 h-10 rounded-[10px] px-4 py-2.5 text-sm hidden lg:block"
+            className="cursor-pointer items-center justify-center whitespace-nowrap text-center font-semibold shadow-none outline-none active:translate-y-[0.0625rem] active:transform disabled:active:translate-y-0 disabled:text-neutral-900 disabled:shadow-none disabled:cursor-default translate-y-0 [transition:color_500ms,background-color_500ms,border-color_500ms,text-decoration-color_500ms,fill_500ms,stroke_500ms,transform] disabled:opacity-50 dark:disabled:opacity-30 dark:disabled:text-neutral-0 bg-[linear-gradient(180deg,#03d2fe,#0c7d95)] text-neutral-0 hover:bg-primary-90 hover:shadow-[0_4px_15px_rgba(107,109,216,0.35)] dark:bg-primary dark:text-neutral-0 dark:hover:bg-primary-90 disabled:bg-neutral-30 dark:disabled:bg-neutral-700 h-10 rounded-[10px] px-4 py-2.5 text-sm hidden lg:block"
             href="/settings"
           >
             Launch App
@@ -111,7 +111,7 @@ const Header = () => {
             <a
               target="_blank"
               className="text-lg font-medium text-neutral-0"
-              href="https://imagineart.tapfiliate.com/"
+              href="https://fridayai.online/"
             >
               Affiliate
             </a>
@@ -120,7 +120,7 @@ const Header = () => {
             <a
               target="_blank"
               className="text-lg font-medium text-neutral-0"
-              href="https://platform.imagine.art/"
+              href="https://fridayai.online/"
             >
               API
             </a>
@@ -131,7 +131,7 @@ const Header = () => {
               target="_blank"
               rel="noreferrer"
               className="flex cursor-pointer items-center justify-center whitespace-nowrap text-center font-semibold shadow-none outline-none active:translate-y-[0.0625rem] active:transform disabled:active:translate-y-0 disabled:text-neutral-900 disabled:shadow-none disabled:cursor-default translate-y-0 [transition:color_500ms,background-color_500ms,border-color_500ms,text-decoration-color_500ms,fill_500ms,stroke_500ms,transform] disabled:opacity-50 dark:disabled:opacity-30 dark:disabled:text-neutral-0 bg-neutral-30 text-neutral-900 hover:bg-neutral-40 dark:bg-neutral-700 dark:text-neutral-0 dark:hover:bg-neutral-600 h-10 w-10 rounded-xl"
-              href=" https://www.facebook.com/groups/imagineai"
+              href=" https://fridayai.online"
             >
               <svg
                 width="20"
@@ -143,7 +143,7 @@ const Header = () => {
                   d="M10.862 7.68v.334H13.38l-.224 2.158h-2.294v7.994H8.177v-7.994H6.583V8.014H8.177V5.853c0-.61.148-1.37.593-1.968.432-.582 1.173-1.052 2.456-1.052l2.149.009v2.076h-1.469c-.194 0-.455.047-.675.225-.233.188-.369.484-.369.877v1.66Z"
                   fill="currentColor"
                   stroke="currentColor"
-                  stroke-width=".667"
+                  strokeWidth=".667"
                 ></path>
               </svg>
             </a>
@@ -152,7 +152,7 @@ const Header = () => {
               target="_blank"
               rel="noreferrer"
               className="flex cursor-pointer items-center justify-center whitespace-nowrap text-center font-semibold shadow-none outline-none active:translate-y-[0.0625rem] active:transform disabled:active:translate-y-0 disabled:text-neutral-900 disabled:shadow-none disabled:cursor-default translate-y-0 [transition:color_500ms,background-color_500ms,border-color_500ms,text-decoration-color_500ms,fill_500ms,stroke_500ms,transform] disabled:opacity-50 dark:disabled:opacity-30 dark:disabled:text-neutral-0 bg-neutral-30 text-neutral-900 hover:bg-neutral-40 dark:bg-neutral-700 dark:text-neutral-0 dark:hover:bg-neutral-600 h-10 w-10 rounded-xl"
-              href="https://www.reddit.com/r/ImagineAiArt/"
+              href="https://fridayai.online/"
             >
               <svg
                 width="24"
@@ -161,7 +161,7 @@ const Header = () => {
                 viewBox="0 0 24 24"
                 className="cursor-pointer text-white opacity-100 transition-all duration-500"
               >
-                <g clip-path="url(#clip0_12295_80867)">
+                <g clipPath="url(#clip0_12295_80867)">
                   <path
                     d="M24 11.553a2.42 2.42 0 0 1-.384 1.348 2.551 2.551 0 0 1-.468.545c-.182.16-.386.294-.608.399a4.419 4.419 0 0 1 .012.569 4.423 4.423 0 0 1-.012.19c0 3.86-4.702 6.996-10.504 6.996-5.801 0-10.504-3.136-10.504-6.997a4.44 4.44 0 0 1-.01-.569c.001-.063.005-.126.01-.189a2.625 2.625 0 0 1-.902-.652 2.486 2.486 0 0 1-.532-.954 2.411 2.411 0 0 1-.065-1.08c.061-.36.203-.704.416-1.006.213-.303.492-.557.819-.746a2.744 2.744 0 0 1 2.195-.235c.361.115.692.304.97.554a13.078 13.078 0 0 1 3.351-1.551 13.375 13.375 0 0 1 3.676-.569l1.333-5.98a.548.548 0 0 1 .447-.417.587.587 0 0 1 .22.004l4.414.844c.445-.732 1.38-1.046 2.206-.74.826.304 1.298 1.138 1.113 1.966-.184.828-.97 1.406-1.854 1.362-.884-.043-1.605-.695-1.7-1.537l-3.855-.775-1.171 5.377a13.227 13.227 0 0 1 6.937 2.12 2.67 2.67 0 0 1 1.324-.656 2.74 2.74 0 0 1 1.484.138c.47.183.876.49 1.167.888.291.398.456.868.475 1.353ZM6.12 13.936c.09.209.223.399.39.559.168.16.366.287.585.374.218.086.453.13.69.13.728 0 1.385-.42 1.664-1.063a1.67 1.67 0 0 0-.39-1.878 1.862 1.862 0 0 0-1.964-.374c-.673.267-1.112.895-1.112 1.592 0 .226.046.45.137.66Zm10.319 4.137a.454.454 0 0 0 .008-.658.498.498 0 0 0-.341-.14.607.607 0 0 0-.358.12 5.968 5.968 0 0 1-1.79.833 6.165 6.165 0 0 1-1.976.218 6.16 6.16 0 0 1-2.896-.589 5.93 5.93 0 0 1-.851-.496.5.5 0 0 0-.653.03.452.452 0 0 0-.032.624 6.981 6.981 0 0 0 2.105 1.033 7.21 7.21 0 0 0 2.345.295 7.164 7.164 0 0 0 3.445-.724c.352-.174.677-.318.994-.546Zm-.33-2.936c.243.003.486-.042.711-.132.226-.09.43-.223.6-.39.17-.168.303-.367.39-.585a1.65 1.65 0 0 0 .118-.685c0-.697-.44-1.325-1.112-1.592a1.862 1.862 0 0 0-1.964.374 1.67 1.67 0 0 0-.39 1.878c.279.643.917 1.132 1.646 1.132Z"
                     fill="currentColor"
@@ -174,7 +174,7 @@ const Header = () => {
               target="_blank"
               rel="noreferrer"
               className="flex cursor-pointer items-center justify-center whitespace-nowrap text-center font-semibold shadow-none outline-none active:translate-y-[0.0625rem] active:transform disabled:active:translate-y-0 disabled:text-neutral-900 disabled:shadow-none disabled:cursor-default translate-y-0 [transition:color_500ms,background-color_500ms,border-color_500ms,text-decoration-color_500ms,fill_500ms,stroke_500ms,transform] disabled:opacity-50 dark:disabled:opacity-30 dark:disabled:text-neutral-0 bg-neutral-30 text-neutral-900 hover:bg-neutral-40 dark:bg-neutral-700 dark:text-neutral-0 dark:hover:bg-neutral-600 h-10 w-10 rounded-xl"
-              href="https://discord.gg/imagine-ai"
+              href="https://fridayai.online"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -195,7 +195,7 @@ const Header = () => {
               target="_blank"
               rel="noreferrer"
               className="flex cursor-pointer items-center justify-center whitespace-nowrap text-center font-semibold shadow-none outline-none active:translate-y-[0.0625rem] active:transform disabled:active:translate-y-0 disabled:text-neutral-900 disabled:shadow-none disabled:cursor-default translate-y-0 [transition:color_500ms,background-color_500ms,border-color_500ms,text-decoration-color_500ms,fill_500ms,stroke_500ms,transform] disabled:opacity-50 dark:disabled:opacity-30 dark:disabled:text-neutral-0 bg-neutral-30 text-neutral-900 hover:bg-neutral-40 dark:bg-neutral-700 dark:text-neutral-0 dark:hover:bg-neutral-600 h-10 w-10 rounded-xl"
-              href="https://www.instagram.com/imagine_ai_app/"
+              href="https://fridayai.online/"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

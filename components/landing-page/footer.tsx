@@ -12,7 +12,7 @@ const Footer = () => {
             <p className="font-medium text-neutral-40">
               Endless Possibilities
               <br />
-              Just Imagine.
+              Just Friday.
             </p>
             <div className="flex gap-4">
               <a
@@ -20,7 +20,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noreferrer"
                 className="bg-[#2C2D31] flex cursor-pointer items-center justify-center whitespace-nowrap text-center font-semibold shadow-none outline-none active:translate-y-[0.0625rem] active:transform disabled:active:translate-y-0 disabled:text-neutral-900 disabled:shadow-none disabled:cursor-default translate-y-0 [transition:color_500ms,background-color_500ms,border-color_500ms,text-decoration-color_500ms,fill_500ms,stroke_500ms,transform] disabled:opacity-50 dark:disabled:opacity-30 dark:disabled:text-neutral-0 bg-neutral-30 text-neutral-900 hover:bg-neutral-40 dark:bg-neutral-700 dark:text-neutral-0 dark:hover:bg-neutral-600 h-10 w-10 rounded-xl"
-                href=" https://www.facebook.com/groups/imagineai"
+                href="https://fridayai.online"
               >
                 <svg
                   width="20"
@@ -41,7 +41,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noreferrer"
                 className="bg-[#2C2D31] flex cursor-pointer items-center justify-center whitespace-nowrap text-center font-semibold shadow-none outline-none active:translate-y-[0.0625rem] active:transform disabled:active:translate-y-0 disabled:text-neutral-900 disabled:shadow-none disabled:cursor-default translate-y-0 [transition:color_500ms,background-color_500ms,border-color_500ms,text-decoration-color_500ms,fill_500ms,stroke_500ms,transform] disabled:opacity-50 dark:disabled:opacity-30 dark:disabled:text-neutral-0 bg-neutral-30 text-neutral-900 hover:bg-neutral-40 dark:bg-neutral-700 dark:text-neutral-0 dark:hover:bg-neutral-600 h-10 w-10 rounded-xl"
-                href="https://www.reddit.com/r/ImagineAiArt/"
+                href="https://fridayai.online"
               >
                 <svg
                   width="24"
@@ -63,7 +63,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noreferrer"
                 className="bg-[#2C2D31] flex cursor-pointer items-center justify-center whitespace-nowrap text-center font-semibold shadow-none outline-none active:translate-y-[0.0625rem] active:transform disabled:active:translate-y-0 disabled:text-neutral-900 disabled:shadow-none disabled:cursor-default translate-y-0 [transition:color_500ms,background-color_500ms,border-color_500ms,text-decoration-color_500ms,fill_500ms,stroke_500ms,transform] disabled:opacity-50 dark:disabled:opacity-30 dark:disabled:text-neutral-0 bg-neutral-30 text-neutral-900 hover:bg-neutral-40 dark:bg-neutral-700 dark:text-neutral-0 dark:hover:bg-neutral-600 h-10 w-10 rounded-xl"
-                href="https://discord.gg/imagine-ai"
+                href="https://fridayai.online"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -84,7 +84,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noreferrer"
                 className="bg-[#2C2D31] flex cursor-pointer items-center justify-center whitespace-nowrap text-center font-semibold shadow-none outline-none active:translate-y-[0.0625rem] active:transform disabled:active:translate-y-0 disabled:text-neutral-900 disabled:shadow-none disabled:cursor-default translate-y-0 [transition:color_500ms,background-color_500ms,border-color_500ms,text-decoration-color_500ms,fill_500ms,stroke_500ms,transform] disabled:opacity-50 dark:disabled:opacity-30 dark:disabled:text-neutral-0 bg-neutral-30 text-neutral-900 hover:bg-neutral-40 dark:bg-neutral-700 dark:text-neutral-0 dark:hover:bg-neutral-600 h-10 w-10 rounded-xl"
-                href="https://www.instagram.com/imagine_ai_app/"
+                href="https://fridayai.online"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -104,7 +104,7 @@ const Footer = () => {
           </div>
           <div className="flex flex-wrap gap-[54px] md:gap-[24px] tablet:gap-[44px] lg:gap-20 xl:gap-[134px]">
             <div className="flex flex-col gap-4">
-              <p className="font-medium text-neutral-0">Imagine</p>
+              <p className="font-medium text-neutral-0">Friday</p>
               <a
                 className="flex cursor-pointer items-center whitespace-nowrap text-center shadow-none outline-none active:translate-y-[0.0625rem] active:transform disabled:active:translate-y-0 disabled:shadow-none disabled:cursor-default translate-y-0 [transition:color_500ms,background-color_500ms,border-color_500ms,text-decoration-color_500ms,fill_500ms,stroke_500ms,transform] disabled:opacity-50 dark:disabled:opacity-30 bg-transparent hover:text-neutral-900 disabled:text-neutral-900 dark:text-neutral-40 dark:hover:text-neutral-0 dark:disabled:text-neutral-0 rounded-[10px] text-sm h-auto justify-start p-0 text-neutral-60 md:text-base font-medium text-neutral-60"
                 href="/blogs"
@@ -135,20 +135,20 @@ const Footer = () => {
               <a
                 className="flex cursor-pointer items-center whitespace-nowrap text-center shadow-none outline-none active:translate-y-[0.0625rem] active:transform disabled:active:translate-y-0 disabled:shadow-none disabled:cursor-default translate-y-0 [transition:color_500ms,background-color_500ms,border-color_500ms,text-decoration-color_500ms,fill_500ms,stroke_500ms,transform] disabled:opacity-50 dark:disabled:opacity-30 bg-transparent hover:text-neutral-900 disabled:text-neutral-900 dark:text-neutral-40 dark:hover:text-neutral-0 dark:disabled:text-neutral-0 rounded-[10px] text-sm h-auto justify-start p-0 text-neutral-60 md:text-base font-medium text-neutral-60"
                 target="_blank"
-                href="https://imagineart.tapfiliate.com/"
+                href="https://fridayai.online"
               >
                 Affiliate Program
               </a>
               <a
                 className="flex cursor-pointer items-center whitespace-nowrap text-center shadow-none outline-none active:translate-y-[0.0625rem] active:transform disabled:active:translate-y-0 disabled:shadow-none disabled:cursor-default translate-y-0 [transition:color_500ms,background-color_500ms,border-color_500ms,text-decoration-color_500ms,fill_500ms,stroke_500ms,transform] disabled:opacity-50 dark:disabled:opacity-30 bg-transparent hover:text-neutral-900 disabled:text-neutral-900 dark:text-neutral-40 dark:hover:text-neutral-0 dark:disabled:text-neutral-0 rounded-[10px] text-sm h-auto justify-start p-0 text-neutral-60 md:text-base font-medium text-neutral-60"
                 target="_blank"
-                href="https://platform.imagine.art/"
+                href="https://fridayai.online"
               >
-                Imagine API
+                Friday API
               </a>
               <a
                 className="flex cursor-pointer items-center whitespace-nowrap text-center shadow-none outline-none active:translate-y-[0.0625rem] active:transform disabled:active:translate-y-0 disabled:shadow-none disabled:cursor-default translate-y-0 [transition:color_500ms,background-color_500ms,border-color_500ms,text-decoration-color_500ms,fill_500ms,stroke_500ms,transform] disabled:opacity-50 dark:disabled:opacity-30 bg-transparent hover:text-neutral-900 disabled:text-neutral-900 dark:text-neutral-40 dark:hover:text-neutral-0 dark:disabled:text-neutral-0 rounded-[10px] text-sm h-auto justify-start p-0 text-neutral-60 md:text-base font-medium text-neutral-60"
-                href="mailto:imagine.web.support@vyro.ai"
+                href="mailto:fridayai.online"
               >
                 Contact us
               </a>
@@ -158,14 +158,14 @@ const Footer = () => {
               <a
                 className="flex cursor-pointer items-center whitespace-nowrap text-center shadow-none outline-none active:translate-y-[0.0625rem] active:transform disabled:active:translate-y-0 disabled:shadow-none disabled:cursor-default translate-y-0 [transition:color_500ms,background-color_500ms,border-color_500ms,text-decoration-color_500ms,fill_500ms,stroke_500ms,transform] disabled:opacity-50 dark:disabled:opacity-30 bg-transparent hover:text-neutral-900 disabled:text-neutral-900 dark:text-neutral-40 dark:hover:text-neutral-0 dark:disabled:text-neutral-0 rounded-[10px] text-sm h-auto justify-start p-0 text-neutral-60 md:text-base font-medium text-neutral-60"
                 target="_blank"
-                href="https://drive.google.com/file/d/1odKfNRoJmwD3sg8dl4zGXjC65zzf8Ejm/view?usp=sharing"
+                href="https://fridayai.online"
               >
                 Privacy Policy
               </a>
               <a
                 className="flex cursor-pointer items-center whitespace-nowrap text-center shadow-none outline-none active:translate-y-[0.0625rem] active:transform disabled:active:translate-y-0 disabled:shadow-none disabled:cursor-default translate-y-0 [transition:color_500ms,background-color_500ms,border-color_500ms,text-decoration-color_500ms,fill_500ms,stroke_500ms,transform] disabled:opacity-50 dark:disabled:opacity-30 bg-transparent hover:text-neutral-900 disabled:text-neutral-900 dark:text-neutral-40 dark:hover:text-neutral-0 dark:disabled:text-neutral-0 rounded-[10px] text-sm h-auto justify-start p-0 text-neutral-60 md:text-base font-medium text-neutral-60"
                 target="_blank"
-                href="https://drive.google.com/file/d/15J42-VqAGRwcZak-R37a-dqtb_XBact5/view"
+                href="https://fridayai.online"
               >
                 Terms &amp; Conditions
               </a>

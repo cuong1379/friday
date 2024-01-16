@@ -6,26 +6,27 @@ const Hero = () => {
     <section className="relative">
       <div className="pointer-events-none absolute left-0 right-0 top-56 z-0 hidden overflow-x-hidden lg:block">
         <img
-          src="https://cdn2.imagine.art/imagine-frontend/assets/images/heroSection.webp"
+          src="/heroSection.webp"
           alt="Hero section background globe"
           className="mx-auto w-full object-none object-top "
         />
       </div>
       <div className="mx-auto my-16 max-w-[672px] lg:mb-[110px] lg:mt-40 lg:max-w-[944px]">
         <h1 className="mx-auto mb-6 w-fit text-center text-4xl font-semibold md:text-5xl lg:text-6xl">
-          Text to image with AI Art Generator
+          Transcend the ordinary with our Virtual Assistant
         </h1>
         <p className="mx-auto mb-7 hidden px-4 text-center text-lg font-normal text-neutral-40 lg:mb-6 lg:block lg:text-xl">
-          Create awe-inspiring masterpieces effortlessly and explore the endless
-          possibilities of AI generated art. Enter a prompt, choose a style, and
-          watch Imagine - AI art generator bring your ideas to life!
+          Friday - Virtual Assistant, where modernity and cutting-edge
+          technology converge to create an unparalleled experience. We are your
+          reliable companion, ready to assist you anytime, anywhere.
         </p>
         <p className="mx-auto mb-7 block px-4 text-center text-lg font-normal text-neutral-40 lg:hidden">
-          Bring your artistic visions to life with Imagine AI art generator,
-          effortlessly creating stunning AI-generated art.
+          {`Friday is not just a smart tool; it's a true companion in your digital
+          life. Enjoy convenience with artificial intelligence and seamless
+          interaction, helping you tackle every issue and challenge with ease.`}
         </p>
         <div className="flex justify-center md:mb-28 lg:hidden">
-          <button className="flex cursor-pointer items-center justify-center whitespace-nowrap text-center font-semibold shadow-none outline-none active:translate-y-[0.0625rem] active:transform disabled:active:translate-y-0 disabled:text-neutral-900 disabled:shadow-none disabled:cursor-default translate-y-0 [transition:color_500ms,background-color_500ms,border-color_500ms,text-decoration-color_500ms,fill_500ms,stroke_500ms,transform] disabled:opacity-50 dark:disabled:opacity-30 dark:disabled:text-neutral-0 bg-primary text-neutral-0 hover:bg-primary-90 hover:shadow-[0_4px_15px_rgba(107,109,216,0.35)] dark:bg-primary dark:text-neutral-0 dark:hover:bg-primary-90 disabled:bg-neutral-30 dark:disabled:bg-neutral-700 h-12 rounded-xl px-5 py-3 text-base w-full max-w-[283px]">
+          <button className="flex cursor-pointer items-center justify-center whitespace-nowrap text-center font-semibold shadow-none outline-none active:translate-y-[0.0625rem] active:transform disabled:active:translate-y-0 disabled:text-neutral-900 disabled:shadow-none disabled:cursor-default translate-y-0 [transition:color_500ms,background-color_500ms,border-color_500ms,text-decoration-color_500ms,fill_500ms,stroke_500ms,transform] disabled:opacity-50 dark:disabled:opacity-30 dark:disabled:text-white bg-[linear-gradient(180deg,#03d2fe,#0c7d95)] text-white hover:bg-primary-90 hover:shadow-[0_4px_15px_rgba(107,109,216,0.35)] dark:bg-primary dark:text-white dark:hover:bg-primary-90 disabled:bg-neutral-30 dark:disabled:bg-neutral-700 h-12 rounded-xl px-5 py-3 text-base w-full max-w-[283px]">
             Sign up for FREE
             <svg
               width="21"
@@ -46,9 +47,9 @@ const Hero = () => {
         </div>
         <form>
           <div className="relative top-0 mx-auto hidden w-full max-w-screen-lg items-center lg:flex">
-            <div className="flex w-full items-center justify-center rounded-[34px] bg-neutral-0 bg-opacity-20 p-2.5 backdrop-blur-[6px]">
+            <div className="flex w-full items-center justify-center rounded-[34px] bg-white bg-opacity-20 p-2.5 backdrop-blur-[6px]">
               <label
-                className="flex w-full cursor-text items-center justify-center gap-3 rounded-[24px] border-2 border-neutral-40 bg-neutral-0 py-3 pl-4 pr-2.5"
+                className="flex w-full cursor-text items-center justify-center gap-3 rounded-[24px] border-2 border-neutral-40 bg-white py-3 pl-4 pr-2.5"
                 htmlFor="prompt"
               >
                 <div className="Typewriter" data-testid="typewriter-wrapper">
@@ -57,12 +58,12 @@ const Hero = () => {
                 </div>
                 <textarea
                   rows={1}
-                  className="hide-scrollbar flex h-full w-full resize-none items-center justify-center border-none bg-neutral-0 pl-0 text-justify text-sm font-medium leading-5 text-black outline-none transition-all duration-500 focus:placeholder-transparent focus:ring-0 dark:bg-neutral-0 dark:text-neutral-900 dark:placeholder-black"
+                  className="hide-scrollbar flex h-full w-full resize-none items-center justify-center border-none bg-white pl-0 text-justify text-sm font-medium leading-5 text-black outline-none transition-all duration-500 focus:placeholder-transparent focus:ring-0 dark:bg-white dark:text-neutral-900 dark:placeholder-black"
                   id="home-prompt-input"
-                  placeholder="a breathtaking"
+                  placeholder="Transcend the ordinary with our Friday"
                 ></textarea>
                 <button
-                  className="flex cursor-pointer items-center justify-center whitespace-nowrap text-center font-semibold shadow-none outline-none active:translate-y-[0.0625rem] active:transform disabled:active:translate-y-0 disabled:text-neutral-900 disabled:shadow-none disabled:cursor-default translate-y-0 [transition:color_500ms,background-color_500ms,border-color_500ms,text-decoration-color_500ms,fill_500ms,stroke_500ms,transform] disabled:opacity-50 dark:disabled:opacity-30 dark:disabled:text-neutral-0 bg-[linear-gradient(180deg,#9C4FFF_0%,#674FFF_100%)] hover:shadow-[0px_4px_15px_0px_rgba(148,79,255,0.35)] text-neutral-0 disabled:bg-neutral-30 dark:disabled:bg-neutral-700 disabled:[background-image:none] h-12 rounded-xl px-5 py-3 text-base gap-2"
+                  className="flex cursor-pointer items-center justify-center whitespace-nowrap text-center font-semibold shadow-none outline-none active:translate-y-[0.0625rem] active:transform disabled:active:translate-y-0 disabled:text-neutral-900 disabled:shadow-none disabled:cursor-default translate-y-0 [transition:color_500ms,background-color_500ms,border-color_500ms,text-decoration-color_500ms,fill_500ms,stroke_500ms,transform] disabled:opacity-50 dark:disabled:opacity-30 dark:disabled:text-white bg-[linear-gradient(180deg,#03d2fe,#0c7d95)] hover:shadow-[0px_4px_15px_0px_rgba(148,79,255,0.35)] text-white disabled:bg-neutral-30 dark:disabled:bg-neutral-700 disabled:[background-image:none] h-12 rounded-xl px-5 py-3 text-base gap-2"
                   type="submit"
                 >
                   <svg width="17" height="16" fill="none" viewBox="0 0 17 16">

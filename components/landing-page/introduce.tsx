@@ -7,7 +7,7 @@ const Introduce = () => {
       <section className="relative mx-auto my-6 w-full lg:my-0">
         <div className="mx-auto max-w-screen-2xl px-4 md:px-10 lg:px-24">
           <img
-            src="https://cdn2.imagine.art/imagine-frontend/assets/images/ResponsiveVector.webp"
+            src="/ResponsiveVector.webp"
             alt="Video background bloom"
             className="pointer-events-none absolute left-0 top-28 -z-10 w-full -translate-y-1/2 lg:hidden"
             height="10"
@@ -26,7 +26,7 @@ const Introduce = () => {
               <iframe
                 allowFullScreen={true}
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                title="Imagine Web - Turn your ideas into Art | Web, Android &amp; iOS"
+                title="Friday - Transcend the ordinary"
                 width="100%"
                 height="100%"
                 src="https://www.youtube.com/embed/Wz0txN_tunk?autoplay=1&amp;mute=1&amp;controls=0&amp;origin=https%3A%2F%2Fwww.imagine.art&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;iv_load_policy=3&amp;modestbranding=1&amp;fs=0&amp;widget_referrer=https%3A%2F%2Fwww.imagine.art&amp;enablejsapi=1&amp;widgetid=1"
