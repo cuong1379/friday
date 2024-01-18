@@ -1,4 +1,4 @@
-import Sidebar from "@/components/admin/admin-layout";
+import Sidebar from "@/components/layouts/admin-layout";
 import React from "react";
 
 const Admin = () => {
