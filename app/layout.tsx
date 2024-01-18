@@ -10,11 +10,10 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Friday",
   description: "Created by Shawn",
-  keywords: "",
-  themeColor: "#03D2FE",
+  keywords: "friday, ai, fridayai, online, assistant",
   robots: "index, follow",
   category: "ai, assistant, artificial intelligence",
-  authors: {name: "Shawn", url: 'fridayai.online'},
+  authors: { name: "Shawn", url: "fridayai.online" },
 };
 
 export default async function RootLayout({
